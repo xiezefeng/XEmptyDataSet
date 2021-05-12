@@ -16,5 +16,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/xiezefeng/XEmptyDataSet.git", :tag => "0.0.1" }
   spec.source_files  = "XEmptyDataSetClasses/*.{h,m}"
   spec.dependency  "Masonry", "~> 1.1.0"
+  spec.framework = "UIKit"
 
 end
