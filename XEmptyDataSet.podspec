@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "谢泽锋" => "815040727@qq.com" }
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/xiezefeng/XEmptyDataSet.git", :tag => "0.0.1" }
-  spec.source_files  = "XEmptyDataSetClasses/*.{h,m}"
+  spec.source_files  = "XEmptyDataSetClasses"
   spec.dependency  "Masonry", "~> 1.1.0"
   spec.framework = "UIKit"
 
